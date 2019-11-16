@@ -1,0 +1,9 @@
+Package: com.bermudalocket.noccbar
+Name: noccbar
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Hide the control center bar on iOS 13.
+Maintainer: bermudalocket
+Author: bermudalocket
+Section: Tweaks
