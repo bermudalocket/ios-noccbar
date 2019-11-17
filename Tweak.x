@@ -1,5 +1,10 @@
+@interface CSTeachableMomentsContainerView { }
+@property (nonatomic,retain) UIView * controlCenterGrabberView;
+@end
+
 %hook CSTeachableMomentsContainerView
--(id)controlCenterGrabberView {
-	return nil;
+- (void)layoutSubviews {
+	[self.controlCenterGrabberView setHidden:YES];
+	return %orig;
 }
 %end
